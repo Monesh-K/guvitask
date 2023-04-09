@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <title>Login Page</title>
+</head>
+<body style="background-image: url(desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);">
+    <div class="container hz-menu">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    <div class="registration-form">
+        <form name="myform1" action="php/login.php" method="POST">
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+            <h2 class="text-center">Login</h2>
+            <div class="form-group">
+                <input type="email" class="form-control item" id="email" name="email1" placeholder="Email" required="">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control item" id="password" name="password1" placeholder="Password" required="">
+            </div>
+            <div id="errorbox"></div>
+            <div class="form-group">
+            <input type="submit" name="login" class="btn btn-block create-account" value="Login">
+                </div>
+            <div id="emailHelp" class="form-text text-center mb-0 text-dark">Not Registered? <a href="register.html" class="text-dark fw-bold">Sign Up </a>
+            </div>
+        </form>
+        
+    </div>
+
+</body>
+</html>

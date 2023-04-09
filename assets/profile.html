@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="js/register.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <title>Profile site</title>
+</head>
+<body style="background-image: url(../desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);">
+    <div class="container hz-menu">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="../php/profile.php">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="editprofile.php">Update Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.php">Logout</a>
+          </li>
+        </ul>
+      </div>
+          <div class="registration-form">
+        <form name="myform2" action="../php/profile.php" method="POST">
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+            <h2 class="text-center">Profile</h2>
+            
+            <div class="form-group">
+            <input type="submit" name="viewdetails" class="btn btn-block create-account" value="Viewdetails">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
