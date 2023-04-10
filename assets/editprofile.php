@@ -48,7 +48,7 @@ if (!isset($_SESSION['email1'])) {
         <title>Profile site</title>
     </head>
 
-    <body style="background-image: url(../desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);">
+    <body style="background-image: url(desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg);">
         <!-- <h1>Profile</h1> -->
         <div class="registration-form">
             <form name="myform2" action="../php/profile.php" method="POST">
